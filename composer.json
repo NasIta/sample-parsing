@@ -1,0 +1,15 @@
+{
+  "name": "nasita/sample-parsing",
+  "autoload": {
+    "psr-4": {
+      "src\\services\\": "src/services"
+    }
+  },
+
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.8",
+    "symfony/dom-crawler": "^6.4",
+    "symfony/css-selector": "^6.4"
+  }
+}
